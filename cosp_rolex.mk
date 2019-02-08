@@ -17,13 +17,14 @@
 $(call inherit-product, device/xiaomi/rolex/full_rolex.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/cosp/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_rolex
+PRODUCT_NAME := cosp_rolex
 BOARD_VENDOR := Xiaomi
-
+TARGET_BOOT_ANIMATION_RES := 720
+TARGET_USE_OLD_SOUND_PICKER := true
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
-
+OTA_TYPE := OFFICIAL
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="rolex-user 7.1.2 N2G47H V9.2.6.0.NCCMIEK release-keys"
 
