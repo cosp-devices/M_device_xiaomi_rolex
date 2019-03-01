@@ -284,7 +284,7 @@ vendor/lib/libsc-a3xx.so
 vendor/lib/libhdr_tm.so
 vendor/lib64/libhdr_tm.so
 
-# Graphics (SDM) - LA.UM.7.5.r1-03700-8x96.0
+# Graphics (SDM) - from Nokia D1C PKQ1.181105.001
 vendor/lib/libscalar.so
 vendor/lib/libsdm-color.so
 vendor/lib/libsdm-diag.so
@@ -299,14 +299,6 @@ vendor/lib64/libsdm-disp-apis.so
 -vendor/lib64/libsdm-disp-vndapis.so
 vendor/lib64/libsdmextension.so
 vendor/lib64/libtinyxml2_1.so
-
-# Graphics (adreno 308) - from riva - OPM1.171019.026 - 8.11.6
-vendor/lib/egl/eglsubAndroid.so
-vendor/lib64/egl/eglsubAndroid.so
-vendor/lib/libc2d30-a3xx.so
-vendor/lib/libsc-a3xx.so
-vendor/lib64/libsc-a3xx.so
-vendor/lib64/libc2d30-a3xx.so
 
 # Graphics (Vulkan) - from daisy - PKQ1.180917.001 V10.0.1.0.PDLMIFJ
 vendor/lib/hw/vulkan.msm8953.so:vendor/lib/hw/vulkan.msm8937.so
